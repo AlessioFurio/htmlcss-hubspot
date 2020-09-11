@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  padding-top: 100px;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: auto;
+  height: 100%;
+}
+
+.header-top{
+  background-color: #f5f8fa;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+nav {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+
+}
+
+.nav-box-sx {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.nav-box-sx ul {
+  padding: 10px;
+  line-height: 50px;
+}
+
+.nav-box-sx li {
+  display: inline-block;
+  padding: 10px;
+}
+
+
+.nav-box-dx{
+  width: 35%;
+  height: 100%;
+  float: right;
+}
+
+.nav-box-dx ul {
+  padding: 10px;
+  line-height: 50px;
+}
+
+.nav-box-dx li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.btn1, .btn2 {
+  padding: 10px 20px;
+  border-radius: 2%;
+}
+
+.btn1 {
+  border: 1px solid #ff7a59;
+  background-color: #fff;
+  color: #ff7a59;
+  font-weight: bold;
+}
+
+.btn2 {
+  background-color: #ff7a59;
+  color: #fff;
+  border: none;
+}
+
+
+
+
+.header-bottom {
+  background-color: #fff;
+  height: 100px;
+  width: 100%;
+}
+
+.nav-logo {
+  padding-top: 30px;
+}
+.nav-logo img {
+  height: 30px;
+  float: left;
+}
+
+.nav-menu {
+  padding: 5px;
+  padding-right: 80px;
+  float: right;
+}
+
+.nav-menu li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+
+
+.top-main {
+  background-color: #425b76;
+  width: 100%;
+}
+
+.top-main p {
+  margin: auto;
+  padding: 20px;
+  width: 70%;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.bottom-main {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+.bottom-main-card {
+  width: 40%;
+  padding: 100px;
+}
+
+.bottom-main-card h1 {
+  font-size: 50px;
+  color: #425b76;
+}
+
+.bottom-main-card p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.bottom-main-card button {
+  background-color: #ff7a59;
+  color: #fff;
+  border: none;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 3%;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.section-card {
+  background-color: red;
+  width: 100%;
+  height: 500px;
+}
+
+.cards {
+  border: 1px solid black;
+  margin: auto;
+  width: 80%;
+}
