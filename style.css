@@ -22,10 +22,9 @@ header {
 .wrapper {
   max-width: 100%;
   height: 100%;
-
 }
 
-.container{
+.container {
   max-width: 1300px;
   margin: auto;
   height: 100%;
@@ -67,7 +66,7 @@ nav {
   color: #425b76;
 }
 
-/*DROPDOWN MENU*/
+/*DROPDOWN MENU "ENGLISH"*/
 
 .nav-box-sx ul ul {
   display: none;
@@ -79,13 +78,13 @@ nav {
   background-color: #fff;
 }
 
-.dropdown-menu:hover ul{
+.dropdown-menu-eng:hover ul{
   display: block;
   border-radius: 5%;
 }
 
 
-.dropdown-menu li {
+.dropdown-menu-eng li {
   position: relative;
   float: none;
   width: 100%;
@@ -93,12 +92,59 @@ nav {
   margin-bottom: 10px;
 }
 
-.dropdown-menu li:hover {
+.dropdown-menu-eng li:hover,
+.dropdown-menu-sw:hover li:hover {
   background-color: #c1f0f7;
   opacity: 0.9;
   color: #425b76;
   font-weight: bold;
 }
+
+/*DROPDOWN MENU "SOFTWARE"*/
+
+.nav-menu ul ul{
+  position: absolute;
+  width: 30%;
+  border: 1px solid #425b76;
+  background-color: #fff;
+  display: none;
+}
+
+.dropdown-menu-sw:hover ul {
+  display: block;
+}
+
+.dropdown-menu-sw:hover li {
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/*DROPDOWN MENU RESOURCES*/
+
+.dropdown-menu-resources:hover #padre-ul{
+  display: block;
+}
+
+.padre-ul{
+  display: none;
+  position: absolute;
+  width: 100%;
+  border: 1px solid #425b76;
+  background-color: #fff;
+  left: 50%;
+}
+
+#padre-ul li{
+  padding: 40px;
+}
+#padre-ul li a {
+  padding: 10px;
+}
+
+
+
 
 
 
@@ -125,7 +171,7 @@ nav {
 
 .nav-box-dx li {
   display: inline-block;
-  padding: 10px;
+  padding: 9px;
 }
 
 .nav-box-dx li a i {
@@ -211,7 +257,7 @@ main .container::after{
 }
 
 .bottom-main {
-  background-color: #f1f1f1;
+  background-color:  #fff1e6;
   width: 100%;
   padding-bottom: 100px;
 }
@@ -280,6 +326,7 @@ main .container::after{
   float: left;
   margin-right: 33px;
   margin-top: 20px;
+  position: relative;
 }
 
 .card:hover{
@@ -299,6 +346,7 @@ main .container::after{
   color: #425b76;
 }
 
+
 .card-one-text {
   margin-top: 20px;
   font-size: 18px;
@@ -309,17 +357,59 @@ main .container::after{
   background-color: #f5f8fa;
 }
 
+.card-content {
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.third-card {
+    position: relative;
+}
+.promo {
+    width: 15%;
+    background-color: green;
+    padding: 3px;
+    text-align: center;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    left: 87%;
+}
+#span-promo{
+    color: #fff;
+    font-weight: bold;
+}
+
 .card-title{
-  padding: 30px 30px 10px;
+  padding: 30px 20px 10px;
   color: #425b76;
   font-weight: bolder;
 }
 
 .card-paragrafo {
-  padding: 20px 30px;
+  padding: 20px 0px;
   color: #425b76;
   font-size: 15px;
   border-bottom: 1px solid lightgrey;
+  width: 90%;
+  margin: auto;
+}
+
+.paragrafo_third_card{
+    width: 80%;
+}
+#title-third-card {
+    padding-bottom: 0;
+}
+
+.paragrafo_fourth_card{
+    width: 90%;
+}
+.paragrafo_fifth_card{
+    width: 80%;
 }
 
 .card h4 {
